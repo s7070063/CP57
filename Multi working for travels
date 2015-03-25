@@ -1,4 +1,159 @@
 #include <stdio.h>
-void main()
+main()
 {
+    int provinces;
+    scanf("%d",&provinces);
+    if(provinces<=76)
+    {
+        switch(provinces)
+        {
+            case 70: printf("868"); break;  //Phatthalung
+            case 71: printf("908"); break;  //Phuket
+            case 72: printf("1100"); break;  //Yala
+            case 73: printf("572"); break;  //Ranong
+            case 74: printf("984"); break;  //Songkhla
+            case 75: printf("981"); break;  //Satun
+            case 76: printf("637"); break;  //Suratthani
+            default:
+                if(provinces<=69)
+                    {
+                        switch(provinces)
+                        {
+                            case 63: printf("801"); break;  //Krabi
+                            case 64: printf("456"); break;  //Chumphon
+                            case 65: printf("852"); break;  //Trang
+                            case 66: printf("799"); break;  //Nakhonsithammarat
+                            case 67: printf("1135"); break;  //Narathiwat
+                            case 68: printf("1046"); break;  //Pattani
+                            case 69: printf("802"); break;  //Phangnga
+                            default:
+                                if(provinces<=62)
+                                    {
+                                        switch(provinces)
+                                        {
+                                            case 56: printf("187"); break;  //Rayong
+                                            case 57: printf("210"); break;  //Sakaeo
+                                            case 58: printf("121"); break;  //Kanchanaburi
+                                            case 59: printf("426"); break;  //Tak
+                                            case 60: printf("284"); break;  //Prachuapkhirikhan
+                                            case 61: printf("102"); break;  //Phetchaburi
+                                            case 62: printf("121"); break;  //Ratchaburi
+                                            default:
+                                                if(provinces<=55)
+                                                    {
+                                                        switch(provinces)
+                                                        {
+                                                            case 49: printf("26"); break;  //Samutprakan
+                                                            case 50: printf("38"); break;  //Samutsongkhram
+                                                            case 51: printf("254"); break;  //Chanthaburi
+                                                            case 52: printf("85"); break;  //Chachoengsao
+                                                            case 53: printf("100"); break;  //Chonburi
+                                                            case 54: printf("322"); break;  //Trat
+                                                            case 55: printf("136"); break;  //Prachinburi
+                                                            default:
+                                                                if(provinces<=48)
+                                                                    {
+                                                                        switch(provinces)
+                                                                        {
+                                                                            case 42: printf("78"); break;  //Phranakhonsiayutthaya
+                                                                            case 43: printf("427"); break;  //Sukhothai
+                                                                            case 44: printf("222"); break;  //Uthaithani
+                                                                            case 45: printf("349"); break;  //Phichit
+                                                                            case 46: printf("379"); break;  //Phitsanulok
+                                                                            case 47: printf("375"); break;  //Phetchabun
+                                                                            case 48: printf("180"); break;  //Lopburi
+                                                                            default:
+                                                                                if(provinces<=41)
+                                                                                    {
+                                                                                        switch(provinces)
+                                                                                        {
+                                                                                            case 35: printf("149"); break;  //Singburi
+                                                                                            case 36: printf("129"); break;  //Suphanburi
+                                                                                            case 37: printf("116"); break;  //Saraburi
+                                                                                            case 38: printf("114"); break;  //Angthong
+                                                                                            case 39: printf("248"); break;  //Nakhonsawan
+                                                                                            case 40: printf("30"); break;  //Nonthaburi
+                                                                                            case 41: printf("42"); break;  //Pathumthani
+                                                                                            default:
+                                                                                                if(provinces<=35)
+                                                                                                    {
+                                                                                                        switch(provinces)
+                                                                                                        {
+                                                                                                            case 28: printf("601"); break; //Udonthani
+                                                                                                            case 29: printf("627"); break; //Ubonratchathani
+                                                                                                            case 30: printf("374"); break; //Kamphaengphet
+                                                                                                            case 31: printf("204"); break; //Chainat
+                                                                                                            case 32: printf("107"); break; //Nakhonnayok
+                                                                                                            case 33: printf("57"); break; //Nakhonpathom
+                                                                                                            case 34: printf("38"); break;  //Samutsakhon
+                                                                                                            default:
+                                                                                                                if(provinces<=27)
+                                                                                                                    {
+                                                                                                                        switch(provinces)
+                                                                                                                        {
+                                                                                                                            case 21: printf("558"); break; //Loei
+                                                                                                                            case 22: printf("561"); break; //Sisaket
+                                                                                                                            case 23: printf("671"); break; //Sakonnakhon
+                                                                                                                            case 24: printf("457"); break; //Surin
+                                                                                                                            case 25: printf("654"); break; //Nongkhai
+                                                                                                                            case 26: printf("554"); break; //Nongbualamphu
+                                                                                                                            case 27: printf("617"); break; //Amnatcharoen
+                                                                                                                            default:
+                                                                                                                                if(provinces<=20)
+                                                                                                                                    {
+                                                                                                                                        switch(provinces)
+                                                                                                                                        {
+                                                                                                                                            case 14: printf("283"); break; //Nakhonratchasima
+                                                                                                                                            case 15: printf("751"); break; //BuengKan
+                                                                                                                                            case 16: printf("410"); break; //Buriram
+                                                                                                                                            case 17: printf("497"); break; //Mahasarakham
+                                                                                                                                            case 18: printf("703"); break; //Mukdahan
+                                                                                                                                            case 19: printf("555"); break; //Yasothon
+                                                                                                                                            case 20: printf("533"); break; //Roiet
+                                                                                                                                            default:
+                                                                                                                                                if(provinces<=13)
+                                                                                                                                                    {
+                                                                                                                                                        switch(provinces)
+                                                                                                                                                        {
+                                                                                                                                                            case 7: printf("613"); break; //Lampang
+                                                                                                                                                            case 8: printf("674"); break; //Lamphun
+                                                                                                                                                            case 9: printf("493"); break; //Uttaradit
+                                                                                                                                                            case 10: printf("543"); break; //Kalasin
+                                                                                                                                                            case 11: printf("475"); break; //Khonkaen
+                                                                                                                                                            case 12: printf("359"); break; //Chaiyaphum
+                                                                                                                                                            case 13: printf("761"); break; //Nakhonphanom
+                                                                                                                                                            default:
+                                                                                                                                                                if(provinces<=6)
+                                                                                                                                                                    {
+                                                                                                                                                                        switch(provinces)
+                                                                                                                                                                        {
+                                                                                                                                                                            case 0: printf("0"); break; //Bangkok
+                                                                                                                                                                            case 1: printf("838"); break; //Chiangrai
+                                                                                                                                                                            case 2: printf("706"); break; //Chiangmai
+                                                                                                                                                                            case 3: printf("675"); break; //Nan
+                                                                                                                                                                            case 4: printf("706"); break; //Phayao
+                                                                                                                                                                            case 5: printf("557"); break; //Phrae
+                                                                                                                                                                            case 6: printf("936"); break; //Maehongson
+                                                                                                                                                                        }
+                                                                                                                                                                    }
+                                                                                                                                                        }
+                                                                                                                                                    }
+                                                                                                                                        }
+                                                                                                                                    }
+                                                                                                                        }
+                                                                                                                    }
+                                                                                                        }
+                                                                                                    }
+                                                                                        }
+                                                                                    }
+                                                                        }
+                                                                    }
+                                                        }
+                                                    }
+                                        }
+                                    }
+                        }
+                    }
+        }
+    }
 }
